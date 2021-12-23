@@ -1,128 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0.1in;
+        font-family: arial;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    body {
-      margin: .1in;
-      font-family: arial;
-    }
+      .pagehead {
+        display: flex;
+        justify-content: space-evenly;
+      }
 
-    .pagehead {
-      display:flex;
-      justify-content: space-evenly;
-    }
+      .pagecontent {
+        display: flex;
+      }
 
-    .pagecontent {
-      display:flex;
-  
-    }
+      .dogdiv {
+        border: solid gray 2px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+      }
 
-    .dogdiv {
-      border: solid gray 2px;
-      border-radius: 10px;
-      margin: 10px;
-      padding: 10px;
-    }
+      .doghead {
+        display: flex;
+        align-items: center; /* I addedd this line */
+        /*justify-content: space-between;*/
+      }
 
-    .doghead {
-      display: flex;
-      align-items: center; /* I addedd this line */
-    }
-  </style>
-</head>
+      .doghead-image {
+        margin: auto;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <div class="page">
+      <div class="pagehead">
+        <img src="https://pixy.org/src/466/4666567.png" width="100" />
+        <img src="https://pixy.org/src/466/thumbs350/4663318.jpg" width="100" />
+        <h1>Dogs of the United States</h1>
+        <img
+          src="https://i.dlpng.com/static/png/6035890-pin-by-pet-tips-on-pet-clip-art-dog-clip-art-dog-stencil-dog-silhouette-transparent-background-1932_2480_preview.png"
+          width="100"
+        />
+        <img
+          src="https://www.pinclipart.com/picdir/big/142-1424926_shadow-clipart-husky-running-dog-silhouette-clip-art.png"
+          width="100"
+        />
+      </div>
 
-  <div class="page">
-    <div class="pagehead">
-      <img src="https://pixy.org/src/466/4666567.png" width="100">
-      <img src="https://pixy.org/src/466/thumbs350/4663318.jpg" width="100">
-      <h1>Dogs of the United States</h1>
-      <img
-        src="https://i.dlpng.com/static/png/6035890-pin-by-pet-tips-on-pet-clip-art-dog-clip-art-dog-stencil-dog-silhouette-transparent-background-1932_2480_preview.png"
-        width="100">
-      <img
-        src="https://www.pinclipart.com/picdir/big/142-1424926_shadow-clipart-husky-running-dog-silhouette-clip-art.png"
-        width="100">
+      <div class="pagecontent">
+        <div class="dogdiv">
+          <div class="doghead">
+            <h4>Labrador Retriever</h4>
+            <img
+              class="doghead-image"
+              src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12231410/Labrador-Retriever-On-White-01.jpg"
+              width="100"
+            />
+          </div>
+          <div class="dogbody">
+            <p>
+              The sweet-faced, lovable Labrador Retriever is America's most
+              popular dog breed. Labs are friendly, outgoing, and high-spirited
+              companions who have more than enough affection to go around for a
+              family looking for a medium-to-large dog.
+            </p>
+            <p>
+              The sturdy, well-balanced Labrador Retriever can, depending on the
+              sex, stand from 21.5 to 24.5 inches at the shoulder and weigh
+              between 55 to 80 pounds. The dense, hard coat comes in yellow,
+              black, and a luscious chocolate. The head is wide, the eyes
+              glimmer with kindliness, and the thick, tapering 'otter tail'
+              seems to be forever signaling the breed's innate eagerness. Labs
+              are famously friendly. They are companionable housemates who bond
+              with the whole family, and they socialize well with neighbor dogs
+              and humans alike. But don't mistake his easygoing personality for
+              low energy: The Lab is an enthusiastic athlete that requires lots
+              of exercise, like swimming and marathon games of fetch, to keep
+              physically and mentally fit.
+            </p>
+          </div>
+        </div>
+
+        <div class="dogdiv">
+          <div class="doghead">
+            <h4>German Shepard</h4>
+            <img
+              class="doghead-image"
+              src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12213218/German-Shepherd-on-White-00.jpg"
+              width="100"
+            />
+          </div>
+          <div class="dogbody">
+            <p>
+              Generally considered dogkind's finest all-purpose worker, the
+              German Shepherd Dog is a large, agile, muscular dog of noble
+              character and high intelligence. Loyal, confident, courageous, and
+              steady, the German Shepherd is truly a dog lover's delight.
+            </p>
+            <p>
+              German Shepherd Dogs can stand as high as 26 inches at the
+              shoulder and, when viewed in outline, presents a picture of
+              smooth, graceful curves rather than angles. The natural gait is a
+              free-and-easy trot, but they can turn it up a notch or two and
+              reach great speeds. There are many reasons why German Shepherds
+              stand in the front rank of canine royalty, but experts say their
+              defining attribute is character: loyalty, courage, confidence, the
+              ability to learn commands for many tasks, and the willingness to
+              put their life on the line in defense of loved ones. German
+              Shepherds will be gentle family pets and steadfast guardians, but,
+              the breed standard says, there's a 'certain aloofness that does
+              not lend itself to immediate and indiscriminate friendships.
+            </p>
+          </div>
+        </div>
+
+        <div class="dogdiv">
+          <div class="doghead">
+            <h4>Bulldog</h4>
+            <img
+              class="doghead-image"
+              src="https://dogsbestlife.com/wp-content/uploads/2020/05/English-bulldog-scaled.jpeg"
+              width="70"
+              height="67px"
+            />
+          </div>
+          <div class="dogbody">
+            <p>
+              Kind but courageous, friendly but dignified, the Bulldog is a
+              thick-set, low-slung, well-muscled bruiser whose 'sourmug' face is
+              the universal symbol of courage and tenacity. These docile, loyal
+              companions adapt well to town or country.
+            </p>
+            <p>
+              You can't mistake a Bulldog for any other breed. The loose skin of
+              the head, furrowed brow, pushed-in nose, small ears, undershot jaw
+              with hanging chops on either side, and the distinctive rolling
+              gait all practically scream 'I'm a Bulldog!' The coat, seen in a
+              variety of colors and patterns, is short, smooth, and glossy.
+              Bulldogs can weigh up to 50 pounds, but that won't stop them from
+              curling up in your lap, or at least trying to. But don't mistake
+              their easygoing ways for laziness'Bulldogs enjoy brisk walks and
+              need regular moderate exercise, along with a careful diet, to stay
+              trim. Summer afternoons are best spent in an air-conditioned room
+              as a Bulldog's short snout can cause labored breathing in hot and
+              humid weather.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-
-
-    <div class="pagecontent">
-
-      <div class="dogdiv">
-        <div class="doghead">
-         <h4>Labrador Retriever</h4>
-          <img
-            src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12231410/Labrador-Retriever-On-White-01.jpg"
-            width="100">
-        </div>
-        <div class="dogbody">
-          <p>The sweet-faced, lovable Labrador Retriever is America's most popular dog breed. Labs are friendly,
-            outgoing,
-            and high-spirited companions who have more than enough affection to go around for a family looking for a
-            medium-to-large dog.</p>
-          <p>The sturdy, well-balanced Labrador Retriever can, depending on the sex, stand from 21.5 to 24.5 inches at
-            the
-            shoulder and weigh between 55 to 80 pounds. The dense, hard coat comes in yellow, black, and a luscious
-            chocolate. The head is wide, the eyes glimmer with kindliness, and the thick, tapering 'otter tail' seems to
-            be
-            forever signaling the breed's innate eagerness. Labs are famously friendly. They are companionable
-            housemates
-            who bond with the whole family, and they socialize well with neighbor dogs and humans alike. But don't
-            mistake
-            his easygoing personality for low energy: The Lab is an enthusiastic athlete that requires lots of exercise,
-            like swimming and marathon games of fetch, to keep physically and mentally fit.</p>
-        </div>
-      </div>
-
-      <div class="dogdiv">
-        <div class="doghead">
-          <h4>German Shepard</h4>
-          <img
-            src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12213218/German-Shepherd-on-White-00.jpg"
-            width="100">
-        </div>
-        <div class="dogbody">
-          <p>Generally considered dogkind's finest all-purpose worker, the German Shepherd Dog is a large, agile,
-            muscular dog of noble character and high intelligence. Loyal, confident, courageous, and steady, the German
-            Shepherd is truly a dog lover's delight.</p>
-          <p> German Shepherd Dogs can stand as high as 26 inches at the shoulder and, when viewed in outline, presents
-            a picture of smooth, graceful curves rather than angles. The natural gait is a free-and-easy trot, but they
-            can turn it up a notch or two and reach great speeds. There are many reasons why German Shepherds stand in
-            the front rank of canine royalty, but experts say their defining attribute is character: loyalty, courage,
-            confidence, the ability to learn commands for many tasks, and the willingness to put their life on the line
-            in defense of loved ones. German Shepherds will be gentle family pets and steadfast guardians, but, the
-            breed standard says, there's a 'certain aloofness that does not lend itself to immediate and indiscriminate
-            friendships.</p>
-        </div>
-      </div>
-
-      <div class="dogdiv">
-        <div class="doghead">
-          <h4>Bulldog</h4>
-          <img src="https://dogsbestlife.com/wp-content/uploads/2020/05/English-bulldog-scaled.jpeg" width="100">
-        </div>
-        <div class="dogbody">
-          <p>Kind but courageous, friendly but dignified, the Bulldog is a thick-set, low-slung, well-muscled bruiser
-            whose 'sourmug' face is the universal symbol of courage and tenacity. These docile, loyal companions adapt
-            well to town or country.</p>
-          <p>You can't mistake a Bulldog for any other breed. The loose skin of the head, furrowed brow, pushed-in nose,
-            small ears, undershot jaw with hanging chops on either side, and the distinctive rolling gait all
-            practically scream 'I'm a Bulldog!' The coat, seen in a variety of colors and patterns, is short, smooth,
-            and glossy. Bulldogs can weigh up to 50 pounds, but that won't stop them from curling up in your lap, or at
-            least trying to. But don't mistake their easygoing ways for laziness'Bulldogs enjoy brisk walks and need
-            regular moderate exercise, along with a careful diet, to stay trim. Summer afternoons are best spent in an
-            air-conditioned room as a Bulldog's short snout can cause labored breathing in hot and humid weather.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
